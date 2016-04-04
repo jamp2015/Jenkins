@@ -1,0 +1,4 @@
+!/bin/sh
+echo "running"
+curl http://localhost:8080/jenkins/job/test%20-%20CinemaManager/build?delay=0sec
+
